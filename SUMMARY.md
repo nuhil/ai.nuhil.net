@@ -54,6 +54,11 @@
 
 * [Questions by Shared Experience](interview-questions/questions-by-shared-experience.md)
 
+## News ↓↑
+
+* [Latest Papers](news/latest-papers.md)
+* [Tools and Libraries](news/tools-and-libraries.md)
+
 ## Contact
 
 * [My Personal Website](https://nuhil.net)
