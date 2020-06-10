@@ -1,2 +1,8 @@
-# ai.nuhil.net
-My AI learning/teaching path and materials
+---
+description: >-
+  Personal Curated Collection of AI Terminologies from Different Sources with
+  References
+---
+
+# Home
+
