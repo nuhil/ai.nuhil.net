@@ -23,6 +23,7 @@
 * [Central Limit Theorem](statistics/central-limit-theorem.md)
 * [F1 Score \(F Measure\)](statistics/f1-score-f-measure.md)
 * [ROC and AUC](statistics/roc-and-auc.md)
+* [Random Variable](statistics/random-variable.md)
 
 ## Probability ↓↑
 
