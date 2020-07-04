@@ -38,6 +38,10 @@
 
 * [Data Science vs Data Engineering](data-engineering/untitled.md)
 
+## Vector and Matrix
+
+* [Scaler vs Vector](vector-and-matrix/scaler-vs-vector.md)
+
 ## Machine Learning ↓↑
 
 * [What is Machine Learning](machine-learning/untitled.md)
