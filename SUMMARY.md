@@ -50,14 +50,14 @@
 
 * [Machine Learning vs Deep Learning](deep-learning/untitled.md)
 
----
-
-* [Object Localization](object-localization.md)
-
 ## Natural Language Processing ↓↑
 
 * [Linguistics and NLP](natural-language-processing/untitled.md)
 * [Text Augmentation](natural-language-processing/text-augmentation.md)
+
+## Computer Vision ↓↑
+
+* [Object Localization](computer-vision/object-localization.md)
 
 ## Interview Questions ↓↑
 
