@@ -12,7 +12,7 @@
 
 ![](../.gitbook/assets/screen-shot-2020-09-21-at-1.20.58-am.png)
 
-### Landmark detection
+## Landmark detection
 
 ![](../.gitbook/assets/screen-shot-2020-09-21-at-1.27.40-am.png)
 
