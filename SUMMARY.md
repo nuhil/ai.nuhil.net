@@ -50,6 +50,10 @@
 
 * [Machine Learning vs Deep Learning](deep-learning/untitled.md)
 
+---
+
+* [Object Localization](object-localization.md)
+
 ## Natural Language Processing ↓↑
 
 * [Linguistics and NLP](natural-language-processing/untitled.md)
