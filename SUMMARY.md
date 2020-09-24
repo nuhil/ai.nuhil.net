@@ -59,7 +59,8 @@
 
 * [Object Localization](computer-vision/object-localization.md)
 * [Object Detection](computer-vision/object-detection.md)
-* [Bounding Box](computer-vision/bounding-box.md)
+* [Bounding Box Prediction](computer-vision/bounding-box.md)
+* [Evaluating Object Localization](computer-vision/evaluating-object-localization.md)
 
 ## Interview Questions ↓↑
 
