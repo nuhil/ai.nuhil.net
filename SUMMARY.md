@@ -63,6 +63,7 @@
 * [Evaluating Object Localization](computer-vision/evaluating-object-localization.md)
 * [Anchor Boxes](computer-vision/anchor-boxes.md)
 * [YOLO Algorithm](computer-vision/yolo-algorithm.md)
+* [R-CNN](computer-vision/r-cnn.md)
 
 ## Interview Questions ↓↑
 
