@@ -64,6 +64,7 @@
 * [Anchor Boxes](computer-vision/anchor-boxes.md)
 * [YOLO Algorithm](computer-vision/yolo-algorithm.md)
 * [R-CNN](computer-vision/r-cnn.md)
+* [Face Recognition](computer-vision/face-recognition.md)
 
 ## Interview Questions ↓↑
 
