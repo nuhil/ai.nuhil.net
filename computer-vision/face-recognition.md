@@ -16,6 +16,8 @@
 
 ## Triplet Loss
 
+![](../.gitbook/assets/screen-shot-2020-10-05-at-3.17.47-pm.png)
+
 
 
 
