@@ -34,6 +34,10 @@ $$
 |A| = ad - bc
 $$
 
+## Identity Matrix
+
+It is the matrix equivalent of the number "1". It is "square" \(has same number of rows as columns\), It has 1s on the diagonal and 0s everywhere else.
+
 {% embed url="https://www.mathsisfun.com/algebra/matrix-multiplying.html" %}
 
 {% embed url="https://www.mathsisfun.com/algebra/matrix-inverse.html" %}
