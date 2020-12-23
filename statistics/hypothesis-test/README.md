@@ -4,17 +4,17 @@
 It is a **claim** or **statement** about **a population parameter** such as mean, variance, proportion, etc.
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2020-12-23-at-3.43.50-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-12-23-at-3.43.50-pm.png)
 
 {% hint style="info" %}
 If population mean, $$\sigma$$ is known then we perform z-test, otherwise we perform t-test. However, based on the central limit theorem, if the sample is large enough, we can still perform z-test.
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2020-12-23-at-3.48.58-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-12-23-at-3.48.58-pm.png)
 
 {% embed url="https://www.youtube.com/watch?v=DlwOTOydeyk" %}
 
-![](../.gitbook/assets/screen-shot-2020-12-23-at-3.52.05-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-12-23-at-3.52.05-pm.png)
 
 ### Alternative Discussion
 
