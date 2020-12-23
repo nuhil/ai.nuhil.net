@@ -1,10 +1,24 @@
 # Hypothesis
 
-**A scientific hypothesis** is a provisional explanation for observations that is falsifiable - meaning that there exists a test whose outcome could mean that the hypothesis is not true. A good hypothesis is testable; it can be either true or false. A good hypothesis fits the evidence and can be used to make predictions about new observations or new situations.
-
 {% hint style="success" %}
-**A Statistical Hypothesis** is a probabilistic explanation about the presence of a relationship between observations.
+It is a **claim** or **statement** about **a population parameter** such as mean, variance, proportion, etc.
 {% endhint %}
+
+![](../.gitbook/assets/screen-shot-2020-12-23-at-3.43.50-pm.png)
+
+{% hint style="info" %}
+If population mean, $$\sigma$$ is known then we perform z-test, otherwise we perform t-test. However, based on the central limit theorem, if the sample is large enough, we can still perform z-test.
+{% endhint %}
+
+![](../.gitbook/assets/screen-shot-2020-12-23-at-3.48.58-pm.png)
+
+{% embed url="https://www.youtube.com/watch?v=DlwOTOydeyk" %}
+
+![](../.gitbook/assets/screen-shot-2020-12-23-at-3.52.05-pm.png)
+
+### Alternative Discussion
+
+A Statistical Hypothesis is a probabilistic explanation about the presence of a relationship between observations.
 
 {% hint style="info" %}
 For example, we may be interested in evaluating the relationship between the means of two samples, e.g. whether the samples were drawn from the same distribution or not, whether there is a difference between them. 
@@ -16,8 +30,7 @@ We don’t say “accept” because the outcome is probabilistic and could still
 
 If the null hypothesis is rejected, then we assume the alternative hypothesis that there exists some difference between the means. 
 
-**Null Hypothesis \(H0\):** Suggests no effect. 
-
+**Null Hypothesis \(H0\):** Suggests no effect.   
 **Alternate Hypothesis \(H1\):** Suggests some effect.
 
 ### Machine Learning Hypothesis
