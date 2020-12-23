@@ -40,7 +40,7 @@
 
 ## Vector and Matrix
 
-* [Scaler vs Vector](vector-and-matrix/scaler-vs-vector.md)
+* [Vector](vector-and-matrix/scaler-vs-vector.md)
 
 ## Machine Learning ↓↑
 
