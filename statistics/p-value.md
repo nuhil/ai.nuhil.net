@@ -31,7 +31,7 @@ That means, the z-score is 3, its `3 SD` away \(i.e., beyond the probability of 
 
 > In this example, we performed a **Parametric Statistical Hypothesis Tests.**
 >
-> Sometimes, **P** is the probability that two variables are independent \(i.e., Correlation Test\). See More [Use Cases](hypothesis.md#reasons-for-hypothesis-tests)
+> Sometimes, **P** is the probability that two variables are independent \(i.e., Correlation Test\). See More [Use Cases](hypothesis-test.md#reasons-for-hypothesis-tests)
 
 ### **T-value**
 

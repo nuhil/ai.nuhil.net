@@ -15,7 +15,7 @@
 * [Quartiles](statistics/quartiles.md)
 * [Box and Whisker Plots](statistics/box-and-whisker-plots.md)
 * [Correlation and Covariance](statistics/correlation-and-covariance.md)
-* [Hypothesis](statistics/hypothesis.md)
+* [Hypothesis Test](statistics/hypothesis-test.md)
 * [P Value](statistics/p-value.md)
 * [Statistical Significance](statistics/statistical-significance.md)
 * [Bootstrapping](statistics/bootstrapping.md)

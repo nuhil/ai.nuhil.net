@@ -1,4 +1,4 @@
-# Hypothesis
+# Hypothesis Test
 
 {% hint style="success" %}
 It is a **claim** or **statement** about **a population parameter** such as mean, variance, proportion, etc.
