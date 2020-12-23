@@ -7,7 +7,7 @@ It is a **claim** or **statement** about **a population parameter** such as mean
 ![](../../.gitbook/assets/screen-shot-2020-12-23-at-3.43.50-pm.png)
 
 {% hint style="info" %}
-If population mean, $$\sigma$$ is known then we perform z-test, otherwise we perform t-test. However, based on the central limit theorem, if the sample is large enough, we can still perform z-test.
+If population mean, $$\sigma$$ is known then we perform **z-test**, otherwise we perform **t-test**. However, based on the central limit theorem, if the sample is large enough, we can still perform **z-test**.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=DlwOTOydeyk" %}
