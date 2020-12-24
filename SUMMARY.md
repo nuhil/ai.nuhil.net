@@ -28,6 +28,7 @@
 ## Probability ↓↑
 
 * [What is Probability](probability/untitled.md)
+* [Bayesian statistics](probability/bayesian-statistics.md)
 
 ## Data Science ↓↑
 
