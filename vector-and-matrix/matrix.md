@@ -1,5 +1,11 @@
 # Matrix
 
+### Matrix Multiplication
+
+{% hint style="info" %}
+Hadamard Product/Multiplication is simply the elementwise multiplication of two Matrix. Usually, in programming, the notation of this operation is a star \(\*\).  
+{% endhint %}
+
 ### Multiplying a Matrix by Another Matrix
 
 Need to do the "dot product" of rows and columns.
@@ -13,6 +19,8 @@ Need to do the "dot product" of rows and columns.
 ## Dividing a Matrix by Another Matrix
 
 We don't do that. Rather we make the inverse of the denominator matrix and then multiply it with the numerator matrix.
+
+**However**, the elementwise division is obviously possible.
 
 ## Inverse of a Matrix
 
