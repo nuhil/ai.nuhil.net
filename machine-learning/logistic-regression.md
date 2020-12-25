@@ -33,6 +33,8 @@ Now we will be using the above equation to make our predictions. Before that we 
 
 ### 3. Define the Loss Function
 
+[L2 Loss function](l1-and-l2-loss-function.md) is okay.
+
 $$
 L = \sum_{i=1}^n (y_{true}-y_{predicted})^2
 $$
