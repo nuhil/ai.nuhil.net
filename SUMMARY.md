@@ -47,6 +47,8 @@
 ## Machine Learning ↓↑
 
 * [What is Machine Learning](machine-learning/untitled.md)
+* [Linear Regression](machine-learning/linear-regression.md)
+* [Logistic Regression](machine-learning/logistic-regression.md)
 
 ## Deep Learning ↓↑
 
