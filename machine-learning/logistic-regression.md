@@ -49,6 +49,30 @@ def logistic_regression(X, Y):
     return b0, b1
 ```
 
+```python
+# Training the model
+b0, b1 = logistic_regression(X_train, y_train)
+
+# Making predictions
+# X_test = X_test.sort_values()  # Sorting values is optional only to see the line graph
+X_test_norm = normalize(X_test)
+y_pred = predict(X_test_norm, b0, b1)
+y_pred = [1 if p >= 0.5 else 0 for p in y_pred]
+
+plt.clf()
+plt.scatter(X_test, y_test)
+plt.scatter(X_test, y_pred, c="red")
+# plt.plot(X_test, y_pred, c="red", linestyle='-', marker='o') # Only if values are sorted
+plt.show()
+
+# The accuracy
+accuracy = 0
+for i in range(len(y_pred)):
+    if y_pred[i] == y_test.iloc[i]:
+        accuracy += 1
+print(f"Accuracy = {accuracy / len(y_pred)}")
+```
+
 {% embed url="https://towardsdatascience.com/logistic-regression-explained-and-implemented-in-python-880955306060" %}
 
 
