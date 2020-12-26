@@ -2,15 +2,15 @@
 
 ### 1. Logistic Model
 
-Consider a model with features x1, x2, x3 … xn. Let the binary output be denoted by Y, that can take the values 0 or 1. Let p be the probability of Y = 1, we can denote it as p = P\(Y=1\). The mathematical relationship between these variables can be denoted as:
+Consider a model with features $$x_1, x_2, x_3 ... x_n$$ . Let the binary output be denoted by $$y$$ , that can take the values 0 or 1. Let $$p$$ be the probability of $$y = 1$$ , we can denote it as $$p = P(y=1)$$ . The mathematical relationship between these variables can be denoted as:
 
 $$
 ln(\frac{p}{1-p}) = \theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3\\
 $$
 
-Here the term p/\(1−p\) is known as the odds and denotes the likelihood of the event taking place. Thus ln\(p/\(1−p\)\) is known as the log odds and is simply used to map the probability that lies between 0 and 1 to a range between \(−∞,+∞\). The terms b0, b1, b2… are parameters \(or weights\) that we will estimate during training.
+Here the term $$\frac{p}{1−p}$$ is known as the odds and denotes the likelihood of the event taking place. Thus $$ln(\frac{p}{1−p})$$ is known as the log odds and is simply used to map the probability that lies between 0 and 1 to a range between \(−∞, +∞\). The terms $$\theta_1,\theta_2,\theta_3,...$$are parameters \(or weights\) that we will estimate during training.
 
-#### It is Actually Sigmoid
+#### It is actually Sigmoid!
 
 
 
@@ -27,7 +27,7 @@ p = \frac {1}{1+e^{-(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3)}}\\
 S(x)=\frac{1}{1+e^{-x}}
 $$
 
-Now we will be using the above equation to make our predictions. Before that we will train our model to obtain the values of our parameters b0, b1, b2… that result in least error.
+Now we will be using the above equation to make our predictions. Before that we will train our model to obtain the values of our parameters $$\theta_1,\theta_2,\theta_3,...$$ that result in least error.
 
 ### 2. Define the Loss Function
 
@@ -43,7 +43,7 @@ You might know that the partial derivative of a function at its minimum value is
 
 1. **Initialize the weights,** $$\theta_0=0$$ and $$\theta_1=0$$ .
 2. **Calculate the partial derivative** with respect to $$\theta_0$$ and $$\theta_1$$ $$d_{\theta_0} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i})\\  d_{\theta_1} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i}) \times x_i$$ 
-3. **Update the weights** - values of $$b_0$$ and $$b_1$$  $$b_0 = b_0 - L \times d_{b_0} \\ b_1 = b_1 - L \times d_{b_1}$$ 
+3. **Update the weights** - values of $$b_0$$ and $$b_1$$  $$\theta_0 = \theta_0 - l \times d_{\theta_0} \\ b_1 = \theta_1 - l \times d_{\theta_1}$$ 
 
 
 
