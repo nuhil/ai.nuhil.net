@@ -5,7 +5,7 @@
 Consider a model with features x1, x2, x3 … xn. Let the binary output be denoted by Y, that can take the values 0 or 1. Let p be the probability of Y = 1, we can denote it as p = P\(Y=1\). The mathematical relationship between these variables can be denoted as:
 
 $$
-ln(\frac{p}{1-p}) = b_0+b_1x_1+b_2x_2+b_3x_3\\
+ln(\frac{p}{1-p}) = \theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3\\
 $$
 
 Here the term p/\(1−p\) is known as the odds and denotes the likelihood of the event taking place. Thus ln\(p/\(1−p\)\) is known as the log odds and is simply used to map the probability that lies between 0 and 1 to a range between \(−∞,+∞\). The terms b0, b1, b2… are parameters \(or weights\) that we will estimate during training.
@@ -17,15 +17,15 @@ From Logit to Sigmoid
 
 
 $$
-ln(\frac{p}{1-p}) = b_0+b_1x_1+b_2x_2+b_3x_3\\
-\frac{p}{1-p} = e^{b_0+b_1x_1+b_2x_2+b_3x_3}\\
-e^{b_0+b_1x_1+b_2x_2+b_3x_3} - p(e^{b_0+b_1x_1+b_2x_2+b_3x_3}) = p\\
-p + p(e^{b_0+b_1x_1+b_2x_2+b_3x_3}) = e^{b_0+b_1x_1+b_2x_2+b_3x_3}\\
-p(1 + e^{b_0+b_1x_1+b_2x_2+b_3x_3}) = e^{b_0+b_1x_1+b_2x_2+b_3x_3}\\
-p = \frac {e^{b_0+b_1x_1+b_2x_2+b_3x_3}}{1 + e^{b_0+b_1x_1+b_2x_2+b_3x_3}}\\
-p = \frac {\frac{e^{b_0+b_1x_1+b_2x_2+b_3x_3}}{e^{b_0+b_1x_1+b_2x_2+b_3x_3}}}{\frac{1 + e^{b_0+b_1x_1+b_2x_2+b_3x_3}}{e^{b_0+b_1x_1+b_2x_2+b_3x_3}}}\\
-p = \frac {1}{1+\frac{1}{e^{b_0+b_1x_1+b_2x_2+b_3x_3}}}\\
-p = \frac {1}{1+e^{-(b_0+b_1x_1+b_2x_2+b_3x_3)}}\\
+ln(\frac{p}{1-p}) = \theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3\\
+\frac{p}{1-p} = e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}\\
+e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3} - p(e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}) = p\\
+p + p(e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}) = e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}\\
+p(1 + e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}) = e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}\\
+p = \frac {e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}}{1 + e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}}\\
+p = \frac {\frac{e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}}{e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}}}{\frac{1 + e^{b_0+b_1x_1+b_2x_2+b_3x_3}}{e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}}}\\
+p = \frac {1}{1+\frac{1}{e^{\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3}}}\\
+p = \frac {1}{1+e^{-(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3)}}\\
 S(x)=\frac{1}{1+e^{-x}}
 $$
 
@@ -33,7 +33,7 @@ Now we will be using the above equation to make our predictions. Before that we 
 
 ### 2. Define the Loss Function
 
-[L2 Loss function](l1-and-l2-loss-function.md) is okay.
+A [L2 Loss function](l1-and-l2-loss-function.md) such as Least Squared Error will do the job.
 
 $$
 L = \sum_{i=1}^n (y_{true}-y_{predicted})^2
