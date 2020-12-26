@@ -12,8 +12,6 @@ Here the term p/\(1−p\) is known as the odds and denotes the likelihood of the
 
 #### It is Actually Sigmoid
 
-From Logit to Sigmoid
-
 
 
 $$
@@ -43,8 +41,8 @@ $$
 
 You might know that the partial derivative of a function at its minimum value is equal to 0. So gradient descent basically uses this concept to estimate the parameters or weights of our model by minimizing the loss function.
 
-1. **Initialize the weights,** $$b_0=0$$ and $$b_1=0$$ .
-2. **Calculate the partial derivative** with respect to b\_0 and b\_1$$d_{b_0} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i})\\  d_{b_1} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i}) \times x_i$$ 
+1. **Initialize the weights,** $$\theta_0=0$$ and $$\theta_1=0$$ .
+2. **Calculate the partial derivative** with respect to $$\theta_0$$ and $$\theta_1$$ $$d_{\theta_0} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i})\\  d_{\theta_1} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i}) \times x_i$$ 
 3. **Update the weights** - values of $$b_0$$ and $$b_1$$  $$b_0 = b_0 - L \times d_{b_0} \\ b_1 = b_1 - L \times d_{b_1}$$ 
 
 

@@ -5,7 +5,7 @@
 In statistics, linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variables. Let **X** be the independent variable and **Y** be the dependent variable. We will define a linear relationship between these two variables as follows:
 
 $$
-Y = \theta_0+\theta_1\times X
+y = \theta_0+\theta_1 x_1
 $$
 
 ### 2. Define Loss Function
