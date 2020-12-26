@@ -10,7 +10,7 @@ $$
 
 Here the term p/\(1−p\) is known as the odds and denotes the likelihood of the event taking place. Thus ln\(p/\(1−p\)\) is known as the log odds and is simply used to map the probability that lies between 0 and 1 to a range between \(−∞,+∞\). The terms b0, b1, b2… are parameters \(or weights\) that we will estimate during training.
 
-### 2. It is Actually Sigmoid
+#### It is Actually Sigmoid
 
 From Logit to Sigmoid
 
@@ -31,7 +31,7 @@ $$
 
 Now we will be using the above equation to make our predictions. Before that we will train our model to obtain the values of our parameters b0, b1, b2… that result in least error.
 
-### 3. Define the Loss Function
+### 2. Define the Loss Function
 
 [L2 Loss function](l1-and-l2-loss-function.md) is okay.
 
@@ -39,7 +39,7 @@ $$
 L = \sum_{i=1}^n (y_{true}-y_{predicted})^2
 $$
 
-### 4. Use the Gradient Descent Algorithm
+### 3. Utilize the Gradient Descent Algorithm
 
 You might know that the partial derivative of a function at its minimum value is equal to 0. So gradient descent basically uses this concept to estimate the parameters or weights of our model by minimizing the loss function.
 
@@ -55,7 +55,6 @@ You might know that the partial derivative of a function at its minimum value is
 # Importing libraries
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from math import exp
 
@@ -71,6 +70,7 @@ def normalize(X):
 
 # Method to make predictions
 def predict(X, theta0, theta1):
+    # Here the predict function is: 1/(1+e^(-x))
     return np.array([1 / (1 + exp(-(theta0 + theta1*x))) for x in X])
 
 # Method to train the model
@@ -81,16 +81,21 @@ def logistic_regression(X, Y):
     # Initializing variables
     theta0 = 0
     theta1 = 0
-    L = 0.001
+    learning_rate = 0.001
     epochs = 300
 
     # Training iteration
     for epoch in range(epochs):
         y_pred = predict(X, theta0, theta1)
-        theta0_d = -2 * sum((Y - y_pred) * y_pred * (1 - y_pred))  # Derivative of loss wrt theta0
-        theta1_d = -2 * sum(X * (Y - y_pred) * y_pred * (1 - y_pred))  # Derivative of loss wrt theta1
-        theta0 = theta0 - L * theta0_d
-        theta1 = theta1 - L * theta1_d
+
+        ## Here the loss function is: sum(y-y_pred)^2 a.k.a least squared error (LSE)
+        # Derivative of loss w.r.t. theta0
+        theta0_d = -2 * sum((Y - y_pred) * y_pred * (1 - y_pred))
+        # Derivative of loss w.r.t. theta1
+        theta1_d = -2 * sum(X * (Y - y_pred) * y_pred * (1 - y_pred))
+
+        theta0 = theta0 - learning_rate * theta0_d
+        theta1 = theta1 - learning_rate * theta1_d
     
     return theta0, theta1
 
