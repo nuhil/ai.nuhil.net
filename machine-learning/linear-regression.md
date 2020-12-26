@@ -2,7 +2,7 @@
 
 ### 1. Regression Model
 
-In statistics, linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variables. Let **X** be the independent variable and **Y** be the dependent variable. We will define a linear relationship between these two variables as follows:
+In statistics, linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variables. Let $$x_1$$ be the independent variable and $$y$$ be the dependent variable. We will define a linear relationship between these two variables as follows:
 
 $$
 y = \theta_0+\theta_1 x_1
