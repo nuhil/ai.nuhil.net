@@ -43,9 +43,7 @@ You might know that the partial derivative of a function at its minimum value is
 
 1. **Initialize the weights,** $$\theta_0=0$$ and $$\theta_1=0$$ .
 2. **Calculate the partial derivative** with respect to $$\theta_0$$ and $$\theta_1$$ $$d_{\theta_0} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i})\\  d_{\theta_1} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i}) \times x_i$$ 
-3. **Update the weights** - values of $$b_0$$ and $$b_1$$  $$\theta_0 = \theta_0 - l \times d_{\theta_0} \\ b_1 = \theta_1 - l \times d_{\theta_1}$$ 
-
-
+3. **Update the weights** - values of $$b_0$$ and $$b_1$$  $$\theta_0 = \theta_0 - l \times d_{\theta_0} \\ \theta_1 = \theta_1 - l \times d_{\theta_1}$$ 
 
 ### Python Implementation
 
