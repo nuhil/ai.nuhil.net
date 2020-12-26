@@ -59,7 +59,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from math import exp
 
-# Prepare the dataset
+# Preparing the dataset
 data = pd.DataFrame({'feature' : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], 'label' : [0,0,0,0,0,0,0,1,1,1,1,1,1,1,1]})
 # Divide the data to training set and test set
 X_train, X_test, y_train, y_test = train_test_split(data['feature'], data['label'], test_size=0.30)
@@ -71,11 +71,11 @@ def normalize(X):
 
 # Method to make predictions
 def predict(X, theta0, theta1):
-    return np.array([1 / (1 + exp(-1*theta0 + -1*theta1*x)) for x in X])
+    return np.array([1 / (1 + exp(-(theta0 + theta1*x))) for x in X])
 
 # Method to train the model
 def logistic_regression(X, Y):
-    # Normalize the data
+    # Normalizing the data
     X = normalize(X)
 
     # Initializing variables
@@ -102,7 +102,7 @@ X_test_norm = normalize(X_test)
 y_pred = predict(X_test_norm, theta0, theta1)
 y_pred = [1 if p >= 0.5 else 0 for p in y_pred]
 
-# Evaluation
+# Evaluating the model
 print(list(y_test))
 print(y_pred)
 ```
