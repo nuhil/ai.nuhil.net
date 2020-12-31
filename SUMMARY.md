@@ -24,11 +24,13 @@
 * [F1 Score \(F Measure\)](statistics/f1-score-f-measure.md)
 * [ROC and AUC](statistics/roc-and-auc.md)
 * [Random Variable](statistics/random-variable.md)
+* [Expected Value](statistics/expected-value.md)
 * [Central Limit Theorem](statistics/central-limit-theorem-1.md)
 
 ## Probability ↓↑
 
 * [What is Probability](probability/untitled.md)
+* [Conditional Probability](probability/conditional-probability.md)
 * [Bayesian statistics](probability/bayesian-statistics.md)
 
 ## Data Science ↓↑
