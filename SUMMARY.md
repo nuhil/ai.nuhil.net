@@ -33,7 +33,7 @@
 * [Joint Probability](probability/joint-probability.md)
 * [Marginal Probability](probability/marginal-probability.md)
 * [Conditional Probability](probability/conditional-probability.md)
-* [Bayesian statistics](probability/bayesian-statistics.md)
+* [Bayesian Statistics](probability/bayesian-statistics.md)
 
 ## Data Science ↓↑
 
