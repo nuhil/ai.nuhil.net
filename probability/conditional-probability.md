@@ -12,3 +12,13 @@ $$
 P(A|B) = \frac {P(A,B)}{P(B)} = \frac {P(A \cap B)}{P(B)}
 $$
 
+### Example
+
+{% hint style="info" %}
+In a group of 100 sports car buyers, 40 bought alarm systems, 30 purchased bucket seats, and 20 purchased an alarm system and bucket seats. If a car buyer chosen at random bought an alarm system, what is the probability they also bought bucket seats?
+{% endhint %}
+
+Here, P\(B\) = Probability of a car buyer chosen at random bought an alarm system, which is 40/100 = 0.4  
+P\(A,B\) = Probability of both happening together, which is given 20/100 = 0.2  
+So, P\(A\|B\) = 0.2/0.4 = 0.5
+
