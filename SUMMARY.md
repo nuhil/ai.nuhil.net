@@ -15,15 +15,16 @@
 * [Quartiles](statistics/quartiles.md)
 * [Box and Whisker Plots](statistics/box-and-whisker-plots.md)
 * [Correlation and Covariance](statistics/correlation-and-covariance.md)
-* [Hypothesis Test](statistics/hypothesis-test/README.md)
-  * [P Value](statistics/hypothesis-test/p-value.md)
-  * [Statistical Significance](statistics/hypothesis-test/statistical-significance.md)
+* [Hypothesis Test](statistics/hypothesis-test.md)
+* [P Value](statistics/p-value.md)
+* [Statistical Significance](statistics/statistical-significance.md)
 * [Bootstrapping](statistics/bootstrapping.md)
 * [Confidence Interval](statistics/confidence-interval.md)
 * [Central Limit Theorem](statistics/central-limit-theorem.md)
 * [F1 Score \(F Measure\)](statistics/f1-score-f-measure.md)
 * [ROC and AUC](statistics/roc-and-auc.md)
 * [Random Variable](statistics/random-variable.md)
+* [Central Limit Theorem](statistics/central-limit-theorem-1.md)
 
 ## Probability ↓↑
 
