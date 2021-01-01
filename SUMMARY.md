@@ -37,7 +37,12 @@
 
 ## Data Science ↓↑
 
+* [Probability Distribution](data-science/probability-distribution.md)
+* [Bernoulli Distribution](data-science/bernoulli-distribution.md)
+* [Uniform Distribution](data-science/uniform-distribution.md)
+* [Binomial Distribution](data-science/binomial-distribution.md)
 * [Poisson Distribution](data-science/poisson-distribution.md)
+* [Normal Distribution](data-science/normal-distribution.md)
 * [T-SNE](data-science/t-sne.md)
 
 ## Data Engineering ↓↑
