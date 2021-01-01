@@ -64,6 +64,7 @@
 
 * [Machine Learning vs Deep Learning](deep-learning/untitled.md)
 * [Bias](deep-learning/bias.md)
+* [Activation Function](deep-learning/activation-function.md)
 
 ## Natural Language Processing ↓↑
 
@@ -80,6 +81,10 @@
 * [YOLO Algorithm](computer-vision/yolo-algorithm.md)
 * [R-CNN](computer-vision/r-cnn.md)
 * [Face Recognition](computer-vision/face-recognition.md)
+
+## Reinforcement Learning
+
+* [Reinforcement Learning](reinforcement-learning/reinforcement-learning.md)
 
 ## System Design
 
