@@ -63,6 +63,7 @@
 ## Deep Learning ↓↑
 
 * [Machine Learning vs Deep Learning](deep-learning/untitled.md)
+* [Bias](deep-learning/bias.md)
 
 ## Natural Language Processing ↓↑
 
