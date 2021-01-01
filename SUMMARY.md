@@ -37,7 +37,7 @@
 
 ## Data Science ↓↑
 
-* [What is Data Science](data-science/untitled.md)
+* [Poisson Distribution](data-science/poisson-distribution.md)
 * [T-SNE](data-science/t-sne.md)
 
 ## Data Engineering ↓↑
