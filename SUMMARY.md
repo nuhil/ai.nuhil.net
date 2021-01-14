@@ -59,6 +59,7 @@
 * [L1 and L2 Loss Function](machine-learning/l1-and-l2-loss-function.md)
 * [Linear Regression](machine-learning/linear-regression.md)
 * [Logistic Regression](machine-learning/logistic-regression.md)
+* [Naive Bayes Classifier](machine-learning/naive-bayes-classifier.md)
 
 ## Deep Learning ↓↑
 
