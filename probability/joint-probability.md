@@ -10,6 +10,8 @@ $$
 P(A \cap B) =P(A,B) = P(A|B)*P(B)
 $$
 
+Anyway, if an event A and B are idenpendent then $$P(A|B) = P(A)$$, and therefore, $$P(A \cap B) = P(A,B) $$ become $$P(A) * P(B)$$ 
+
 {% hint style="info" %}
 **Example:** The probability that a card is a five and black = p\(five and black\) 
 {% endhint %}
