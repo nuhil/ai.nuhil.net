@@ -17,5 +17,9 @@ $$
 2/52 = 1/26  
 \(There are two black fives in a deck of 52 cards, the five of spades and the five of clubs\).
 
+### OR Events
 
+$$
+P(A \cup B) = P(A)+P(B)-P(A \cap B)
+$$
 
