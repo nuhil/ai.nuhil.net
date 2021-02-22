@@ -66,6 +66,7 @@
 * [Machine Learning vs Deep Learning](deep-learning/untitled.md)
 * [Bias](deep-learning/bias.md)
 * [Activation Function](deep-learning/activation-function.md)
+* [Softmax](deep-learning/softmax.md)
 
 ## Natural Language Processing ↓↑
 
