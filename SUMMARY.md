@@ -67,6 +67,7 @@
 * [Bias](deep-learning/bias.md)
 * [Activation Function](deep-learning/activation-function.md)
 * [Softmax](deep-learning/softmax.md)
+* [Cross Entropy](deep-learning/cross-entropy.md)
 
 ## Natural Language Processing ↓↑
 
