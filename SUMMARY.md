@@ -34,6 +34,7 @@
 * [Marginal Probability](probability/marginal-probability.md)
 * [Conditional Probability](probability/conditional-probability.md)
 * [Bayesian Statistics](probability/bayesian-statistics.md)
+* [Naive Bayes](probability/naive-bayes.md)
 
 ## Data Science ↓↑
 
@@ -60,6 +61,7 @@
 * [Linear Regression](machine-learning/linear-regression.md)
 * [Logistic Regression](machine-learning/logistic-regression.md)
 * [Naive Bayes Classifier](machine-learning/naive-bayes-classifier.md)
+* [Resources](machine-learning/resources.md)
 
 ## Deep Learning ↓↑
 
@@ -73,6 +75,7 @@
 
 * [Linguistics and NLP](natural-language-processing/untitled.md)
 * [Text Augmentation](natural-language-processing/text-augmentation.md)
+* [Transformers](natural-language-processing/transformers.md)
 
 ## Computer Vision ↓↑
 
