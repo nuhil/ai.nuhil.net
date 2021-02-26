@@ -49,6 +49,7 @@
 ## Data Engineering ↓↑
 
 * [Data Science vs Data Engineering](data-engineering/untitled.md)
+* [Data Cleaning](data-engineering/data-cleaning.md)
 
 ## Vector and Matrix
 
@@ -75,6 +76,7 @@
 
 * [Linguistics and NLP](natural-language-processing/untitled.md)
 * [Text Augmentation](natural-language-processing/text-augmentation.md)
+* [CNN for NLP](natural-language-processing/cnn-for-nlp.md)
 * [Transformers](natural-language-processing/transformers.md)
 
 ## Computer Vision ↓↑
@@ -87,6 +89,10 @@
 * [YOLO Algorithm](computer-vision/yolo-algorithm.md)
 * [R-CNN](computer-vision/r-cnn.md)
 * [Face Recognition](computer-vision/face-recognition.md)
+
+## Time Series <a id="time-series-1"></a>
+
+* [Resources](time-series-1/resources.md)
 
 ## Reinforcement Learning
 
