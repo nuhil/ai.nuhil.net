@@ -6,7 +6,7 @@
 * **Negative** correlation exists when larger values of $$x$$ correspond to smaller values of $$y$$ and vice versa.
 * **Weak or no** correlation exists if there is no such apparent relationship.
 
-![](../.gitbook/assets/screen-shot-2020-01-23-at-1.13.59-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-01-23 at 1.13.59 PM.png>)
 
 ### Covariance
 
@@ -31,4 +31,3 @@ $$
 > Make a Scatter Plot, and look at it! You may see a correlation that the calculation does not.
 >
 > **Correlation Is Not Causation** which says that a correlation does not mean that one thing causes the other.
-

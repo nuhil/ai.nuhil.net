@@ -20,9 +20,11 @@ $$
 
 You might know that the partial derivative of a function at its minimum value is equal to 0. So gradient descent basically uses this concept to estimate the parameters or weights of our model by minimizing the loss function.
 
-1. Initialize the weights, $$\theta_0 = 0$$and $$\theta_1 =0$$ 
-2. Calculate the partial derivatives w.r.t. to $$\theta_0$$and $$\theta_1$$  $$d_{\theta_0} = -\frac{2}{n} \sum_{i=1}^n(y_i - \bar{y_i}) \\   d_{\theta_1} = -\frac{2}{n} \sum_{i=1}^n(y_i - \bar{y_i}) \times x_i$$ 
-3. Update the weights $$\theta_0 = \theta_0 - l \times d_{\theta_0}  \\ \theta_1 = \theta_1 - l \times d_{\theta_1}$$ 
+1. Initialize the weights, $$\theta_0 = 0$$and $$\theta_1 =0$$&#x20;
+2. Calculate the partial derivatives w.r.t. to $$\theta_0$$and $$\theta_1$$ \
+   $$d_{\theta_0} = -\frac{2}{n} \sum_{i=1}^n(y_i - \bar{y_i}) \\   d_{\theta_1} = -\frac{2}{n} \sum_{i=1}^n(y_i - \bar{y_i}) \times x_i$$&#x20;
+3. Update the weights\
+   $$\theta_0 = \theta_0 - l \times d_{\theta_0}  \\ \theta_1 = \theta_1 - l \times d_{\theta_1}$$&#x20;
 
 ### Python Implementation
 
@@ -77,6 +79,4 @@ print(y_pred)
 ```
 
 {% embed url="https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931" %}
-
-
 

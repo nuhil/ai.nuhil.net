@@ -8,7 +8,7 @@ $$
 ln(\frac{p}{1-p}) = \theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3\\
 $$
 
-Here the term $$\frac{p}{1−p}$$ is known as the odds and denotes the likelihood of the event taking place. Thus $$ln(\frac{p}{1−p})$$ is known as the log odds and is simply used to map the probability that lies between 0 and 1 to a range between \(−∞, +∞\). The terms $$\theta_1,\theta_2,\theta_3,...$$are parameters \(or weights\) that we will estimate during training.
+Here the term $$\frac{p}{1−p}$$ is known as the odds and denotes the likelihood of the event taking place. Thus $$ln(\frac{p}{1−p})$$ is known as the log odds and is simply used to map the probability that lies between 0 and 1 to a range between (−∞, +∞). The terms $$\theta_1,\theta_2,\theta_3,...$$are parameters (or weights) that we will estimate during training.
 
 #### It is actually Sigmoid!
 
@@ -42,8 +42,9 @@ $$
 You might know that the partial derivative of a function at its minimum value is equal to 0. So gradient descent basically uses this concept to estimate the parameters or weights of our model by minimizing the loss function.
 
 1. **Initialize the weights,** $$\theta_0=0$$ and $$\theta_1=0$$ .
-2. **Calculate the partial derivative** with respect to $$\theta_0$$ and $$\theta_1$$ $$d_{\theta_0} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i})\\  d_{\theta_1} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i}) \times x_i$$ 
-3. **Update the weights** - values of $$b_0$$ and $$b_1$$  $$\theta_0 = \theta_0 - l \times d_{\theta_0} \\ \theta_1 = \theta_1 - l \times d_{\theta_1}$$ 
+2. **Calculate the partial derivative** with respect to $$\theta_0$$ and $$\theta_1$$ $$d_{\theta_0} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i})\\  d_{\theta_1} = -2 \sum_{i=1}^n(y_i - \bar{y_i}) \times \bar{y_i} \times (1 - \bar{y_i}) \times x_i$$&#x20;
+3. **Update the weights** - values of $$b_0$$ and $$b_1$$ \
+   $$\theta_0 = \theta_0 - l \times d_{\theta_0} \\ \theta_1 = \theta_1 - l \times d_{\theta_1}$$&#x20;
 
 ### Python Implementation
 
@@ -109,6 +110,4 @@ print(y_pred)
 ```
 
 {% embed url="https://towardsdatascience.com/logistic-regression-explained-and-implemented-in-python-880955306060" %}
-
-
 

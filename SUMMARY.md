@@ -21,7 +21,7 @@
 * [Bootstrapping](statistics/bootstrapping.md)
 * [Confidence Interval](statistics/confidence-interval.md)
 * [Central Limit Theorem](statistics/central-limit-theorem.md)
-* [F1 Score \(F Measure\)](statistics/f1-score-f-measure.md)
+* [F1 Score (F Measure)](statistics/f1-score-f-measure.md)
 * [ROC and AUC](statistics/roc-and-auc.md)
 * [Random Variable](statistics/random-variable.md)
 * [Expected Value](statistics/expected-value.md)
@@ -50,6 +50,9 @@
 
 * [Data Science vs Data Engineering](data-engineering/untitled.md)
 * [Data Cleaning](data-engineering/data-cleaning.md)
+* [Data Format](data-engineering/data-format/README.md)
+  * [Apache Avro](data-engineering/data-format/apache-avro.md)
+* [Page 1](data-engineering/page-1.md)
 
 ## Vector and Matrix
 
@@ -90,7 +93,7 @@
 * [R-CNN](computer-vision/r-cnn.md)
 * [Face Recognition](computer-vision/face-recognition.md)
 
-## Time Series <a id="time-series-1"></a>
+## Time Series <a href="#time-series-1" id="time-series-1"></a>
 
 * [Resources](time-series-1/resources.md)
 
@@ -109,4 +112,3 @@
 ## Contact
 
 * [My Personal Website](https://nuhil.net)
-

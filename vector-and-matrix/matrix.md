@@ -3,18 +3,18 @@
 ### Matrix Multiplication
 
 {% hint style="info" %}
-Hadamard Product/Multiplication is simply the elementwise multiplication of two Matrix. Usually, in programming, the notation of this operation is a star \(\*\).  
+Hadamard Product/Multiplication is simply the elementwise multiplication of two Matrix. Usually, in programming, the notation of this operation is a star (\*). &#x20;
 {% endhint %}
 
 ### Multiplying a Matrix by Another Matrix
 
 Need to do the "dot product" of rows and columns.
 
-![](../.gitbook/assets/screen-shot-2020-12-22-at-9.21.31-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.21.31 PM.png>)
 
-![](../.gitbook/assets/screen-shot-2020-12-22-at-9.21.50-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.21.50 PM.png>)
 
-![](../.gitbook/assets/screen-shot-2020-12-22-at-9.22.24-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.22.24 PM.png>)
 
 ## Dividing a Matrix by Another Matrix
 
@@ -24,11 +24,11 @@ We don't do that. Rather we make the inverse of the denominator matrix and then 
 
 ## Inverse of a Matrix
 
-**2x2 Matrix.** The inverse of a 2x2 is easy compared to larger matrices \(such as a 3x3, 4x4, etc\). For those larger matrices there are other methods to work out the inverse.
+**2x2 Matrix.** The inverse of a 2x2 is easy compared to larger matrices (such as a 3x3, 4x4, etc). For those larger matrices there are other methods to work out the inverse.
 
-![](../.gitbook/assets/screen-shot-2020-12-22-at-9.28.45-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.28.45 PM.png>)
 
-Very much helpful if we want to get an unknown matrix such as X where,$$XA = B$$ by $$X = BA^{-1}$$ 
+Very much helpful if we want to get an unknown matrix such as X where,$$XA = B$$ by $$X = BA^{-1}$$&#x20;
 
 ## Determinant of a Matrix
 
@@ -36,7 +36,7 @@ The determinant of a matrix is a special number that can be calculated from a sq
 
 **Calculating the Determinant - For a 2×2 Matrix**
 
-![](../.gitbook/assets/screen-shot-2020-12-22-at-9.32.53-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.32.53 PM.png>)
 
 $$
 |A| = ad - bc
@@ -44,7 +44,7 @@ $$
 
 ## Identity Matrix
 
-It is the matrix equivalent of the number "1". It is "square" \(has same number of rows as columns\), It has 1s on the diagonal and 0s everywhere else.
+It is the matrix equivalent of the number "1". It is "square" (has same number of rows as columns), It has 1s on the diagonal and 0s everywhere else.
 
 $$
 A \times A^{-1} = A^{-1} \times A = I
@@ -53,6 +53,4 @@ $$
 {% embed url="https://www.mathsisfun.com/algebra/matrix-multiplying.html" %}
 
 {% embed url="https://www.mathsisfun.com/algebra/matrix-inverse.html" %}
-
-
 

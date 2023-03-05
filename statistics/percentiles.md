@@ -16,7 +16,7 @@ Each dataset has **three quartiles**, which are the percentiles that divide the 
 
 ### Estimating Percentiles
 
-![](../.gitbook/assets/screen-shot-2020-01-23-at-11.59.18-am.png)
+![](<../.gitbook/assets/Screen Shot 2020-01-23 at 11.59.18 AM.png>)
 
 {% hint style="info" %}
 A total of 10,000 people visited the shopping mall over 12 hours. The 30th percentile occurs after about 6.5 hours. The visits at 11 hours were about 9,500, which is the 95th percentile.
@@ -25,6 +25,4 @@ A total of 10,000 people visited the shopping mall over 12 hours. The 30th perce
 #### References
 
 {% embed url="https://www.mathsisfun.com/data/percentiles.html" %}
-
-
 
