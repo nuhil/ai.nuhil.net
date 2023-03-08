@@ -104,6 +104,20 @@
 
 * [Feed](system-design/feed.md)
 
+## MLOps
+
+* [Vertex AI](mlops/vertex-ai/README.md)
+  * [Dataset](mlops/vertex-ai/dataset.md)
+  * [Feature Store](mlops/vertex-ai/feature-store.md)
+  * [Pipelines](mlops/vertex-ai/pipelines.md)
+  * [Training](mlops/vertex-ai/training.md)
+  * [Experiments](mlops/vertex-ai/experiments.md)
+  * [Model Registry](mlops/vertex-ai/model-registry.md)
+  * [Endpoints](mlops/vertex-ai/endpoints.md)
+  * [Batch Predictions](mlops/vertex-ai/batch-predictions.md)
+  * [Metadata](mlops/vertex-ai/metadata.md)
+  * [Matching Engine](mlops/vertex-ai/matching-engine.md)
+
 ## Interview Questions ↓↑
 
 * [Questions by Shared Experience](interview-questions/questions-by-shared-experience.md)
