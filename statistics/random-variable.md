@@ -18,7 +18,7 @@ X is discrete because the numbers that X represents are isolated points on the n
 
 The number of heads that can come up when tossing two coins is a discrete random variable because heads can only come up a certain number of times: 0, 1, or 2. Also, we want to know the probability associated with each value of the random values.
 
-![A probability distribution for the number of heads (our random variable) when you toss two coins.](<../.gitbook/assets/Screen Shot 2020-07-03 at 2.23.54 PM.png>)
+![A probability distribution for the number of heads (our random variable) when you toss two coins.](../.gitbook/assets/screen-shot-2020-07-03-at-2.23.54-pm.png)
 
 A probability distribution has all the possible values of the random variable and the associated probabilities.&#x20;
 
@@ -34,13 +34,13 @@ Thus, continuous random variables are random variables that are found from measu
 In this case, X is continuous because X represents an infinite number of values on the number line.
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2020-07-03 at 2.26.45 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-07-03-at-2.26.45-pm.png)
 
 Like the coin example, the random variable (in this case, the intervals) would have certain probabilities or percentages associated with it. And this would be a probability distribution for the test scores.
 
 In the study of probability, we are interested in finding the probabilities associated with each value of these random variables.
 
-![](<../.gitbook/assets/Screen Shot 2020-07-03 at 2.28.45 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-07-03-at-2.28.45-pm.png)
 
 **Sum of Probabilities for a Distribution**\
 On the above, in each table, the sum of all probabilities add up to 1 or 100%. However, for continuous random variables, we can construct a histogram of the table with relative frequencies, and the area under the histogram is also equal to 1.

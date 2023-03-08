@@ -52,7 +52,6 @@
 * [Data Cleaning](data-engineering/data-cleaning.md)
 * [Data Format](data-engineering/data-format/README.md)
   * [Apache Avro](data-engineering/data-format/apache-avro.md)
-* [Page 1](data-engineering/page-1.md)
 
 ## Vector and Matrix
 

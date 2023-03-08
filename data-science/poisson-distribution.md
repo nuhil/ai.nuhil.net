@@ -26,11 +26,11 @@ The formula of P(k; λ) returns the probability of observing k events given the 
 
 ### Example
 
-![](<../.gitbook/assets/Screen Shot 2020-12-31 at 5.47.06 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-31-at-5.47.06-pm.png)
 
-![](<../.gitbook/assets/Screen Shot 2020-12-31 at 5.47.58 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-31-at-5.47.58-pm.png)
 
-![](<../.gitbook/assets/Screen Shot 2020-12-31 at 5.48.29 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-31-at-5.48.29-pm.png)
 
 {% hint style="danger" %}
 Say we do a Bernoulli trial every minute for an hour, each with a success probability of 0.1. We would do 60 trials, and the number of successes is Binomially distributed, and we would expect to get about 6 successes. This is just like the Poisson story we discussed, where we get on average 6 hits on a website per hour.&#x20;

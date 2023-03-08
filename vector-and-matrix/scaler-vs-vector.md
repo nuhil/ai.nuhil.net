@@ -2,17 +2,17 @@
 
 A vector has a magnitude and direction. The length of the line shows its magnitude and the arrowhead points in the direction. We can add two vectors by joining them head-to-tail. And it doesn't matter which order we add them, we get the same result.
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 8.16.25 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-8.16.25-pm.png)
 
 We can also subtract one vector from another. First, we reverse the direction of the vector we want to subtract, then add them as usual.
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 8.18.04 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-8.18.04-pm.png)
 
 ## **Adding Vector**
 
 We can add vectors by adding the x parts and adding the y parts**.**
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 8.21.40 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-8.21.40-pm.png)
 
 $$
 a = (8,13),
@@ -41,9 +41,9 @@ Magnitude of the vector,$$|b| = (6,8) = \sqrt( 6^2 + 8^2) = \sqrt( 36+64) = \sqr
 
 ## Polar and Cartesian Coordinates
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.03.47 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.03.47-pm.png)
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.04.21 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.04.21-pm.png)
 
 {% embed url="https://www.mathsisfun.com/algebra/vectors.html" %}
 

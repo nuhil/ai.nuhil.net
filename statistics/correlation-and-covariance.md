@@ -6,7 +6,7 @@
 * **Negative** correlation exists when larger values of $$x$$ correspond to smaller values of $$y$$ and vice versa.
 * **Weak or no** correlation exists if there is no such apparent relationship.
 
-![](<../.gitbook/assets/Screen Shot 2020-01-23 at 1.13.59 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-01-23-at-1.13.59-pm.png)
 
 ### Covariance
 

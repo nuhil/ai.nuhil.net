@@ -14,7 +14,7 @@ Then you can use the mean of their heights (Estimated Mean) to estimate the aver
 
 ### Calculating Confidence Interval
 
-![](<../.gitbook/assets/Screen Shot 2020-01-26 at 4.45.55 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-01-26-at-4.45.55-pm.png)
 
 We cast a net from the value we know $$\overline{x}$$ .
 

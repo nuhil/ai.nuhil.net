@@ -12,7 +12,7 @@ description: Receiver Operating Characteristic Curve, Area Under Curve
 AUC is a metric for how well a model fit the data (1 being absolutely perfect fit).
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2020-04-01 at 11.51.16 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-04-01-at-11.51.16-pm.png)
 
 {% embed url="https://www.youtube.com/watch?v=OAl6eAyP-yo" %}
 

@@ -16,7 +16,7 @@ Statistical significance is built on a few simple ideas: **hypothesis testing, t
 
 To get from a z-score on the normal distribution to a p-value, we can use a table or any statistical software. The result will show us the probability of a z-score lower than the calculated value. For example, with a z-score of 2, the p-value is 0.977, which means there is only a 2.3% probability we observe a z-score higher than 2 at random (because of random noise).
 
-![The percentage of the distribution below a z-score of 2 is 97.7%](<../.gitbook/assets/Screen Shot 2020-01-26 at 5.44.01 PM.png>)
+![The percentage of the distribution below a z-score of 2 is 97.7%](../.gitbook/assets/screen-shot-2020-01-26-at-5.44.01-pm.png)
 
 > **Note: In the above example, we are considering all of the left side up to 2 SD to the right side of the mean. Hence, its 50+34.1+13.6 = 97.7**
 

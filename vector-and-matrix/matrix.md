@@ -10,11 +10,11 @@ Hadamard Product/Multiplication is simply the elementwise multiplication of two 
 
 Need to do the "dot product" of rows and columns.
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.21.31 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.21.31-pm.png)
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.21.50 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.21.50-pm.png)
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.22.24 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.22.24-pm.png)
 
 ## Dividing a Matrix by Another Matrix
 
@@ -26,7 +26,7 @@ We don't do that. Rather we make the inverse of the denominator matrix and then 
 
 **2x2 Matrix.** The inverse of a 2x2 is easy compared to larger matrices (such as a 3x3, 4x4, etc). For those larger matrices there are other methods to work out the inverse.
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.28.45 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.28.45-pm.png)
 
 Very much helpful if we want to get an unknown matrix such as X where,$$XA = B$$ by $$X = BA^{-1}$$&#x20;
 
@@ -36,7 +36,7 @@ The determinant of a matrix is a special number that can be calculated from a sq
 
 **Calculating the Determinant - For a 2×2 Matrix**
 
-![](<../.gitbook/assets/Screen Shot 2020-12-22 at 9.32.53 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-12-22-at-9.32.53-pm.png)
 
 $$
 |A| = ad - bc

@@ -4,7 +4,7 @@
 Consider a Binary Classification Model that Predicts Whether or Not a Person Got Diabetic.
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2020-03-30 at 11.08.26 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-03-30-at-11.08.26-pm.png)
 
 ### Accuracy
 
