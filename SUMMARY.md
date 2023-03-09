@@ -113,9 +113,9 @@
   * [Training](mlops/vertex-ai/training.md)
   * [Experiments](mlops/vertex-ai/experiments.md)
   * [Model Registry](mlops/vertex-ai/model-registry.md)
-  * [Endpoints](mlops/vertex-ai/endpoints.md)
-  * [Batch Predictions](mlops/vertex-ai/batch-predictions.md)
-  * [Online Predictions](mlops/vertex-ai/online-predictions.md)
+  * [Serving](mlops/vertex-ai/serving/README.md)
+    * [Batch Predictions](mlops/vertex-ai/serving/batch-predictions.md)
+    * [Online Predictions](mlops/vertex-ai/serving/online-predictions.md)
   * [Metadata](mlops/vertex-ai/metadata.md)
   * [Matching Engine](mlops/vertex-ai/matching-engine.md)
 
