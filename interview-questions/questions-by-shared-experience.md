@@ -20,7 +20,9 @@
 
 {% embed url="https://towardsdatascience.com/test-your-skills-26-data-science-interview-questions-answers-69cb2b223e57" %}
 
+{% embed url="https://igotanoffer.com/blogs/tech/facebook-machine-learning-engineer-interview" %}
 
+{% embed url="https://towardsdatascience.com/how-i-cracked-my-mle-interview-at-facebook-fe55726f0096" %}
 
 
 
