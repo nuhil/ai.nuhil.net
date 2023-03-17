@@ -68,6 +68,7 @@
 
 ## Deep Learning ↓↑
 
+* [Neural Networks and Deep Learning](deep-learning/neural-networks-and-deep-learning.md)
 * [Machine Learning vs Deep Learning](deep-learning/untitled.md)
 * [Bias](deep-learning/bias.md)
 * [Activation Function](deep-learning/activation-function.md)
