@@ -79,7 +79,8 @@
 * [Linguistics and NLP](natural-language-processing/untitled.md)
 * [Text Augmentation](natural-language-processing/text-augmentation.md)
 * [CNN for NLP](natural-language-processing/cnn-for-nlp.md)
-* [Transformers](natural-language-processing/transformers.md)
+* [Transformers](natural-language-processing/transformers/README.md)
+  * [Implementation](natural-language-processing/transformers/implementation.md)
 
 ## Computer Vision ↓↑
 
@@ -104,20 +105,26 @@
 
 * [Feed](system-design/feed.md)
 
-## MLOps
+## Tools
 
-* [Vertex AI](mlops/vertex-ai/README.md)
-  * [Dataset](mlops/vertex-ai/dataset.md)
-  * [Feature Store](mlops/vertex-ai/feature-store.md)
-  * [Pipelines](mlops/vertex-ai/pipelines.md)
-  * [Training](mlops/vertex-ai/training.md)
-  * [Experiments](mlops/vertex-ai/experiments.md)
-  * [Model Registry](mlops/vertex-ai/model-registry.md)
-  * [Serving](mlops/vertex-ai/serving/README.md)
-    * [Batch Predictions](mlops/vertex-ai/serving/batch-predictions.md)
-    * [Online Predictions](mlops/vertex-ai/serving/online-predictions.md)
-  * [Metadata](mlops/vertex-ai/metadata.md)
-  * [Matching Engine](mlops/vertex-ai/matching-engine.md)
+* [PyTorch](tools/pytorch.md)
+* [Tensorflow](tools/tensorflow.md)
+* [Hugging Face](tools/hugging-face.md)
+
+## MLOps <a href="#tools" id="tools"></a>
+
+* [Vertex AI](tools-1/vertex-ai/README.md)
+  * [Dataset](tools-1/vertex-ai/dataset.md)
+  * [Feature Store](tools-1/vertex-ai/feature-store.md)
+  * [Pipelines](tools-1/vertex-ai/pipelines.md)
+  * [Training](tools-1/vertex-ai/training.md)
+  * [Experiments](tools-1/vertex-ai/experiments.md)
+  * [Model Registry](tools-1/vertex-ai/model-registry.md)
+  * [Serving](tools-1/vertex-ai/serving/README.md)
+    * [Batch Predictions](tools-1/vertex-ai/serving/batch-predictions.md)
+    * [Online Predictions](tools-1/vertex-ai/serving/online-predictions.md)
+  * [Metadata](tools-1/vertex-ai/metadata.md)
+  * [Matching Engine](tools-1/vertex-ai/matching-engine.md)
 
 ## Interview Questions ↓↑
 
