@@ -71,6 +71,7 @@
 * [Neural Networks and Deep Learning](deep-learning/neural-networks-and-deep-learning.md)
 * [Improving Deep Neural Networks](deep-learning/improving-deep-neural-networks.md)
 * [Structuring Machine Learning Projects](deep-learning/structuring-machine-learning-projects.md)
+* [Convolutional Neural Networks](deep-learning/convolutional-neural-networks.md)
 * [Bias](deep-learning/bias.md)
 * [Activation Function](deep-learning/activation-function.md)
 * [Softmax](deep-learning/softmax.md)
