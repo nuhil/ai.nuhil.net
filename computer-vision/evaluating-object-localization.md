@@ -2,7 +2,7 @@
 
 ## Intersection Over Union
 
-![](../.gitbook/assets/screen-shot-2020-09-24-at-3.37.41-pm.png)
+![](<../.gitbook/assets/screen-shot-2020-09-24-at-3.37.41-pm (1).png>)
 
 ## Non-max Suppression
 

@@ -46,13 +46,13 @@ Learning is a search through the space of possible hypotheses for one that will 
 ### Reasons for Hypothesis Tests
 
 1. **Normality Tests**\
-   ****Tests that you can use to check if your data has a Gaussian distribution.
+   Tests that you can use to check if your data has a Gaussian distribution.
    1. Shapiro-Wilk Test
    2. D’Agostino’s K^2 Test
    3. Anderson-Darling Test\
 
 2.  **Correlation Tests**\
-    ****Tests that you can use to check if two samples are related.\
+    Tests that you can use to check if two samples are related.\
     **H0:** the two samples are independent.
 
     **H1:** there is a dependency between the samples.
@@ -63,12 +63,12 @@ Learning is a search through the space of possible hypotheses for one that will 
     4. Chi-Squared Test\
 
 3. **Stationary Tests**\
-   ****Tests that you can use to check if a time series is stationary or not.
+   Tests that you can use to check if a time series is stationary or not.
    1. Augmented Dickey-Fuller
    2. Kwiatkowski-Phillips-Schmidt-Shin\
 
 4.  **Parametric Statistical Hypothesis Tests**\
-    ****Tests that you can use to compare data samples.\
+    Tests that you can use to compare data samples.\
     **H0:** the means of the samples are equal.
 
     **H1:** the means of the samples are unequal.
@@ -79,7 +79,7 @@ Learning is a search through the space of possible hypotheses for one that will 
     4. Repeated Measures ANOVA Test\
 
 5.  **Nonparametric Statistical Hypothesis Tests**\
-    ****Tests whether the distributions of two independent samples are equal or not.\
+    Tests whether the distributions of two independent samples are equal or not.\
     **H0:** the distributions of both samples are equal.
 
     **H1:** the distributions of both samples are not equal.

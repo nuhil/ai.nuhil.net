@@ -5,7 +5,7 @@
 * **Harmonic Mean** is the reciprocal of the arithmetic mean of the reciprocals.\
   $$\frac{n}{\sum_i^n(\frac{1}{x{i}})}$$ ,  where $$i=1,2,...n$$ and $$n$$ is the number of items in the dataset $$x$$ .&#x20;
 * **Geometric Mean** is the `n-th` root of the product of all $$n$$ elements $$x_i$$ _in a dataset_ $$x$$_._\
-  __$$\sqrt[n]{\prod_i^n x_{i}}$$ , where $$i=1,2,...n$$ and $$n$$ is the number of items in the dataset $$x$$ .
+  $$\sqrt[n]{\prod_i^n x_{i}}$$ , where $$i=1,2,...n$$ and $$n$$ is the number of items in the dataset $$x$$ .
 
 **Variability** tells you about the spread of the data. Useful measures include variance, Standard deviation, Skewness, Percentile, and Range.
 

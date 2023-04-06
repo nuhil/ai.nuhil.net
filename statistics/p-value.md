@@ -16,7 +16,7 @@ Do you think that the drug has an effect on response time?
 
 ### Hypothesis
 
-**Null Hypothesis:** Drug has no effect. (Sample mean would also be 1.2 sec **** even with drug)\
+**Null Hypothesis:** Drug has no effect. (Sample mean would also be 1.2 sec even with drug)\
 **Alternative Hypothesis:** Drug has an effect. (Mean is not equal 1.2 sec when drug is given)
 
 Given, \
