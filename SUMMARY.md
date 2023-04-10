@@ -54,6 +54,7 @@
   * [Apache Avro](data-engineering/data-format/apache-avro.md)
 * [Tools](data-engineering/tools/README.md)
   * [Dataflow](data-engineering/tools/dataflow.md)
+  * [Dataproc](data-engineering/tools/dataproc.md)
 
 ## Vector and Matrix
 
