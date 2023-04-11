@@ -53,6 +53,7 @@
 * [Data Format](data-engineering/data-format/README.md)
   * [Apache Avro](data-engineering/data-format/apache-avro.md)
 * [Tools](data-engineering/tools/README.md)
+  * [BigQuery](data-engineering/tools/bigquery.md)
   * [Dataflow](data-engineering/tools/dataflow.md)
   * [Dataproc](data-engineering/tools/dataproc.md)
 
