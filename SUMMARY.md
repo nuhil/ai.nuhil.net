@@ -49,6 +49,12 @@
 ## Data Engineering ↓↑
 
 * [Data Science vs Data Engineering](data-engineering/untitled.md)
+* [Data Governance](data-engineering/data-governance.md)
+* [Data Quality](data-engineering/data-quality.md)
+* [Data Compliance](data-engineering/data-compliance.md)
+* [Business Intelligence](data-engineering/business-intelligence.md)
+* [Data Modeling](data-engineering/data-modeling.md)
+* [Data Catalog](data-engineering/data-catalog.md)
 * [Data Cleaning](data-engineering/data-cleaning.md)
 * [Data Format](data-engineering/data-format/README.md)
   * [Apache Avro](data-engineering/data-format/apache-avro.md)
