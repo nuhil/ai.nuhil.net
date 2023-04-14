@@ -49,6 +49,7 @@
 ## Data Engineering ↓↑
 
 * [Data Science vs Data Engineering](data-engineering/untitled.md)
+* [Data Architecture](data-engineering/data-architecture.md)
 * [Data Governance](data-engineering/data-governance.md)
 * [Data Quality](data-engineering/data-quality.md)
 * [Data Compliance](data-engineering/data-compliance.md)
