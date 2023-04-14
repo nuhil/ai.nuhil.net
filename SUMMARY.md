@@ -63,6 +63,8 @@
   * [BigQuery](data-engineering/tools/bigquery.md)
   * [Dataflow](data-engineering/tools/dataflow.md)
   * [Dataproc](data-engineering/tools/dataproc.md)
+* [Cloud Platforms](data-engineering/cloud-platforms/README.md)
+  * [GCP](data-engineering/cloud-platforms/gcp.md)
 
 ## Vector and Matrix
 

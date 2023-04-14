@@ -6,6 +6,8 @@ Data Mesh is a modern architectural approach to building data infrastructure tha
 
 Imagine a large e-commerce company that has multiple domain teams such as product, marketing, finance, and logistics. In a data mesh architecture, each domain team would be responsible for creating and managing their own data products such as product catalog, customer data, marketing campaigns, financial transactions, and shipping records. Each data product would have its own schema and would be published to a centralized data catalog for easy discovery and access.
 
+{% embed url="https://cloud.google.com/blog/products/data-analytics/build-a-data-mesh-on-google-cloud-with-dataplex-now-generally-available" %}
+
 ## Data Vault
 
 Data Vault is a modeling technique for designing data warehouses that provides flexibility, scalability, and resilience to changes in the data sources. In this approach, data is modeled as a set of hubs, links, and satellites. The hubs represent the business entities, the links represent the relationships between them, and the satellites represent the attributes of the entities and relationships over time.
