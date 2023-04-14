@@ -2,7 +2,7 @@
 
 ## Data Mesh
 
-Data Mesh is a modern architectural approach to building data infrastructure that aims to make data ownership and governance decentralized and distributed. In this approach, data is organized into domain-specific data products that are owned and managed by the individual domain teams. Each data product has its own schema and is responsible for its own data quality, availability, and accessibility.
+Data Mesh is a modern architectural approach to building data infrastructure that <mark style="background-color:green;">aims to make data ownership and governance decentralized and distributed. In this approach, data is organized into domain-specific data products that are owned and managed by the individual domain teams.</mark> Each data product has its own schema and is responsible for its own data quality, availability, and accessibility.
 
 Imagine a large e-commerce company that has multiple domain teams such as product, marketing, finance, and logistics. In a data mesh architecture, each domain team would be responsible for creating and managing their own data products such as product catalog, customer data, marketing campaigns, financial transactions, and shipping records. Each data product would have its own schema and would be published to a centralized data catalog for easy discovery and access.
 
