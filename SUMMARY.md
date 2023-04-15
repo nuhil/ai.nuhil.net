@@ -65,6 +65,8 @@
   * [Dataproc](data-engineering/tools/dataproc.md)
 * [Cloud Platforms](data-engineering/cloud-platforms/README.md)
   * [GCP](data-engineering/cloud-platforms/gcp.md)
+* [SQL](data-engineering/sql/README.md)
+  * [ACID](data-engineering/sql/acid.md)
 
 ## Vector and Matrix
 
