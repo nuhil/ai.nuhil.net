@@ -14,12 +14,6 @@ Data Vault is a modeling technique for designing data warehouses that provides f
 
 Consider a healthcare company that wants to analyze patient data from multiple sources such as electronic health records, insurance claims, and clinical trials. In a data vault approach, the data would be modeled as a set of hubs, links, and satellites. For example, the patient hub would contain a unique identifier for each patient, the claim link would connect the patient hub to the insurance claim information, and the diagnosis satellite would contain information about the patient's medical condition.
 
-## Star Schema
-
-Star Schema is a modeling technique for designing data warehouses that organizes data into a central fact table and a set of dimension tables. The fact table contains the measures or metrics that the business wants to analyze, while the dimension tables contain the attributes that provide context to the measures. This approach provides a simplified, denormalized view of the data that facilitates fast querying and analysis.
-
-Suppose a retail company wants to analyze sales data for their products across different regions and time periods. In a star schema, the fact table would contain the sales data such as revenue and units sold, and the dimension tables would contain the attributes such as product, region, and date. This approach would allow the company to easily analyze sales trends and patterns across different dimensions.
-
 ## Kimball
 
 Kimball is a methodology for designing and building data warehouses that emphasizes business requirements and user needs. In this approach, data is organized into dimensionally modeled data marts that are optimized for specific business areas. The methodology is based on four key steps: requirements gathering, dimensional modeling, physical design, and implementation.

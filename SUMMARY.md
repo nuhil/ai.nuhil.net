@@ -60,13 +60,16 @@
 * [Data Format](data-engineering/data-format/README.md)
   * [Apache Avro](data-engineering/data-format/apache-avro.md)
 * [Tools](data-engineering/tools/README.md)
-  * [BigQuery](data-engineering/tools/bigquery.md)
+  * [Data Fusion](data-engineering/tools/data-fusion.md)
   * [Dataflow](data-engineering/tools/dataflow.md)
   * [Dataproc](data-engineering/tools/dataproc.md)
+  * [BigQuery](data-engineering/tools/bigquery.md)
 * [Cloud Platforms](data-engineering/cloud-platforms/README.md)
   * [GCP](data-engineering/cloud-platforms/gcp.md)
 * [SQL](data-engineering/sql/README.md)
   * [ACID](data-engineering/sql/acid.md)
+  * [SQL Transaction](data-engineering/sql/sql-transaction.md)
+* [Data Engineering Interview Questions](data-engineering/data-engineering-interview-questions.md)
 
 ## Vector and Matrix
 
@@ -122,6 +125,7 @@
 
 ## System Design
 
+* [SW Diagramming](system-design/sw-diagramming.md)
 * [Feed](system-design/feed.md)
 
 ## Tools
