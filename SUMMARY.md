@@ -69,6 +69,7 @@
 * [SQL](data-engineering/sql/README.md)
   * [ACID](data-engineering/sql/acid.md)
   * [SQL Transaction](data-engineering/sql/sql-transaction.md)
+  * [Query Optimization](data-engineering/sql/query-optimization.md)
 * [Data Engineering Interview Questions](data-engineering/data-engineering-interview-questions.md)
 
 ## Vector and Matrix
