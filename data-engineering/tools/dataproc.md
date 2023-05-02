@@ -4,7 +4,7 @@
 
 ## Playlists
 
-{% embed url="https://www.youtube.com/watch?v=mexsZ5aK0XU&list=PLeOtIjHQdqvFtYzoFL-DCYx_Sw-5iBJQ4" %}
+{% embed url="https://www.youtube.com/playlist?list=PLeOtIjHQdqvFtYzoFL-DCYx_Sw-5iBJQ4" %}
 
 ## Apache Spark
 
