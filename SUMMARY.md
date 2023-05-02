@@ -149,6 +149,7 @@
     * [Online Predictions](mlops/vertex-ai/serving/online-predictions.md)
   * [Metadata](mlops/vertex-ai/metadata.md)
   * [Matching Engine](mlops/vertex-ai/matching-engine.md)
+  * [Monitoring and Alerting](tools-1/vertex-ai/monitoring-and-alerting.md)
 
 ## Interview Questions ↓↑
 
