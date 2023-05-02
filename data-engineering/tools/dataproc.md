@@ -9,3 +9,5 @@
 ## Apache Spark
 
 {% embed url="https://www.youtube.com/playlist?list=PLLa_h7BriLH0FzTY5aBFpH-vciOiEf4Br" %}
+
+{% embed url="https://www.youtube.com/playlist?list=PL7B3mwEXCi-Y1TovUg0Vv6KgyeOco7xBZ" %}
